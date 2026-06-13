@@ -3,22 +3,32 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Rohan Villoth</title>
+  <title>Rohan Villoth | Web Developer & Designer</title>
   <meta name="author" content="Rohan Villoth">
-  <meta name="description" content="Personal website of Rohan Villoth">
+  <meta name="description" content="Personal website of Rohan Villoth. I'm a web developer and designer experienced in Next.js, React, Node.js, and UX improvement. Explore my portfolio and skills.">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta name="theme-color" content="#6a1b9a">
 
+  <link rel="canonical" href="https://rohanvilloth.com" />
+
   <!-- Open Graph -->
+  <meta property="og:site_name" content="Rohan Villoth" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:url" content="https://rohanvilloth.com" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://rohanvilloth.com/assets/images/rohan-villoth-logo.png" />
+  <meta property="og:image:alt" content="Rohan Villoth Logo" />
   <meta property="og:logo" content="https://rohanvilloth.com/assets/images/rohan-villoth-logo.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@RohanVilloth" />
 
   <!-- PWA & Favicon -->
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="assets/images/rohan-villoth-logo.png">
-  <link href="assets/images/rohan-villoth-logo.png" rel="icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/rohan-villoth-logo.png">
+  <link rel="icon" type="image/svg+xml" href="assets/images/rohan-villoth-logo.svg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,13 +37,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/brands.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/solid.min.css" />
   <link type="text/css" rel="stylesheet" href="assets/styles/style.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Rohan Villoth",
+    "url": "https://rohanvilloth.com/",
+    "description": "Personal website of Rohan Villoth. I'm a web developer and designer experienced in Next.js, React, Node.js, and UX improvement. Explore my portfolio and skills.",
+    "author": {
+      "@type": "Person",
+      "name": "Rohan Villoth"
+    }
+  }
+  </script>
 </head>
 
 <body class="custom-font">
   <header>
     <div class="header-branding">
       <img src="assets/images/rohan-villoth-logo.png" alt="Rohan Villoth Logo" class="header-logo" width="40" height="40">
-      <h1 class="custom-font">Rohan Villoth</h1>
+      <span class="custom-font" style="font-size: 2em; font-weight: bold; margin: 0;">Rohan Villoth</span>
     </div>
     <div class="theme-segment" id="theme-segment">
       <button data-theme="theme-light" aria-label="Light Theme"><i class="fa-solid fa-sun"></i></button>
